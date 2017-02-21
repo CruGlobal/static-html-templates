@@ -1,0 +1,15 @@
+{
+  "name": "productpages",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest"
+  },
+  "description": "Gulp file for product page templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cru",
+  "license": "ISC"
+}
