@@ -33,7 +33,7 @@
     <div class="container">
       <div class="row posts">
         <div class="col-md-4">
-          <a href="post.php" class="post prod-cat1" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);"><span class="prod-img-overlay prod-cat1"><img src="assets/img/solid_featured_icon.svg" alt="" /></span></a>
+          <a href="post.php" class="post-thumb prod-cat1" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);"><span class="prod-img-overlay prod-cat1"><img src="assets/img/solid_featured_icon.svg" alt="" /></span></a>
           <div class="post-content">
             <p class="date">October 20, 2016</p>
             <h2><a href="post.php">New Dashboard UI, easily see all you need on one screen</a></h2>
@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <a href="post.php" class="post prod-cat2" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);"><span class="prod-img-overlay prod-cat2"><img src="assets/img/solid_mission_icon.svg" alt="" /></span></a>
+          <a href="post.php" class="post-thumb prod-cat2" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);"><span class="prod-img-overlay prod-cat2"><img src="assets/img/solid_mission_icon.svg" alt="" /></span></a>
           <div class="post-content">
             <p class="date">October 05, 2016</p>
             <h2><a href="post.php">Janice Ruth, "Why I use MPDX"</a></h2>
@@ -49,17 +49,15 @@
           </div>
         </div>
         <div class="col-md-4">
-          <a href="post.php" class="post prod-cat3"><span class="prod-img-overlay prod-cat3"><img src="assets/img/solid_tutorial_icon.svg" alt="" /></span></a>
+          <a href="post.php" class="post-thumb prod-cat3"><span class="prod-img-overlay prod-cat3"><img src="assets/img/solid_tutorial_icon.svg" alt="" /></span></a>
           <div class="post-content">
             <p class="date">September 20, 2016</p>
             <h2><a href="post.php">Merge contacts manually</a></h2>
             <p>If you have contacts you need to merge that do not show up when you run "Find Duplicates" function, you can also manually merge...</p>
           </div>
         </div>
-      </div>
-      <div class="row posts">
         <div class="col-md-4">
-          <a href="post.php" class="post prod-cat3" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);"><span class="prod-img-overlay prod-cat3"><img src="assets/img/solid_featured_icon.svg" alt="" /></span></a>
+          <a href="post.php" class="post-thumb prod-cat3" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);"><span class="prod-img-overlay prod-cat3"><img src="assets/img/solid_featured_icon.svg" alt="" /></span></a>
           <div class="post-content">
             <p class="date">October 20, 2016</p>
             <h2><a href="post.php">New Dashboard UI, easily see all you need on one screen</a></h2>
@@ -67,7 +65,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <a href="post.php" class="post prod-cat2"><span class="prod-img-overlay prod-cat2"><img src="assets/img/solid_mission_icon.svg" alt="" /></span></a>
+          <a href="post.php" class="post-thumb prod-cat2"><span class="prod-img-overlay prod-cat2"><img src="assets/img/solid_mission_icon.svg" alt="" /></span></a>
           <div class="post-content">
             <p class="date">October 05, 2016</p>
             <h2><a href="post.php">Janice Ruth, "Why I use MPDX"</a></h2>
@@ -75,7 +73,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <a href="post.php" class="post prod-cat1"><span class="prod-img-overlay prod-cat1"><img src="assets/img/solid_tutorial_icon.svg" alt="" /></span></a>
+          <a href="post.php" class="post-thumb prod-cat1"><span class="prod-img-overlay prod-cat1"><img src="assets/img/solid_tutorial_icon.svg" alt="" /></span></a>
           <div class="post-content">
             <p class="date">September 20, 2016</p>
             <h2><a href="post.php">Merge contacts manually</a></h2>

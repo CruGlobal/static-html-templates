@@ -7,7 +7,7 @@
         <div class="col-md-6">
           <img src="assets/img/MPDX-Logo-White.png" width="140" alt="" />
           <h1>Fundraising software built for missions and churches.</h1>
-          <h2>MPDX is a free app that helps you grow and maintain your financial partnerships in a quick and easy way. Build and maintain your team of financial partners for missions.</h2>
+          <h2>MPDX is a free, secure app that helps you grow and maintain your financial partnerships in a quick and easy way.</h2>
           <a href="#" class="btn btn-default btn-primary">Download the app</a>
         </div>
         <div class="col-md-6">Video</div>
@@ -20,18 +20,18 @@
       <div class="row text-center">
         <div class="col-md-4">
           <img src="assets/img/donation_icon.svg" />
-          <h2>Easily track your gifts</h2>
-          <p>Sync your donation information, use Tnt datasync, upload a file or enter your donations manually.</p>
+          <h2>Easily track your donations</h2>
+          <p>Get notified when giving patterns change. Keep a birds eye view on your donation’s health with our dashboard.</p>
         </div>
         <div class="col-md-4">
           <img src="assets/img/sync_icon.svg" />
           <h2>Sync with tools you already use</h2>
-          <p>Sync with your google, Mailchimp, and Prayerletter service accounts.</p>
+          <p>Save time syncing your Google, Mailchimp, and Prayerletter service accounts to MPDX.</p>
         </div>
         <div class="col-md-4">
           <img src="assets/img/contacts_icon.svg" />
-          <h2>Stay in Touch with your contacts</h2>
-          <p>Import you contact from Google, a CSV file, or your TntMPD.</p>
+          <h2>Stay in touch with your partners</h2>
+          <p> Changes in contact information from donor services, Mailchimp, and Google sync straight to MPDX.</p>
         </div>
       </div>
     </div>
@@ -41,8 +41,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Track your monthly commitments, special asks, and more with our easy to read dashboard</h2>
-          <p>Use the appeal wizard for your normal end-of-year ask and summer assignment appeals, or use it to track monthly or special gift support towards a specific goal.</p>
+          <h2>Track when giving patterns change, see your monthly commitments, and more with our easy to read dashboard</h2>
+          <p>Sometimes we want to keep a close eye on our donations, and sometimes we would rather not face reality! Bottom line is, in order to steward our ministries well, we need to see what’s happening.</p>
+          <p>With our easy to read dashboard and giving notifications, we show you an all encompassing look at the details that matter - even when you’re on the go!</p>
           <a href="#" class="btn btn-default btn-primary">Get started</a>
         </div>
       </div>
@@ -53,8 +54,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-7 col-md-offset-5">
-          <h2>Easily sync with your favorite day-to-day tools</h2>
-          <p>Set up a connection with your Google account to automatically log emails you exchange with a partner or potential partner in their history, keep your active contact in MODX in sync with your Google contacts, and connect your appointments ans tasks to your Google calndar. MPDX can also keep your contact list up to date in MailChimp and with Prayerletter Services.</p>
+          <h2>Sync once, update everywhere. Continue to use your favorite day-to-day tools</h2>
+          <p>Do you need to share accounts with your spouse? Or with a team inside your ministry? MPDX’s easy integrations allow you to update once, and update everything; even between users.</p>
+          <p>Set up a connection with your Google account to automatically log a partner’s email history, keep your contacts in MPDX in sync with your Google contacts, and connect your appointments and tasks to your Google calendar. MPDX also keeps your mailing lists up to date in MailChimp, and Prayerletter Services.</p>
           <a href="#" class="btn btn-default btn-primary">Get started</a>
         </div>
       </div>
@@ -65,8 +67,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Organized contacts, all in one place</h2>
-          <p>Never lose a contact again! Sort, tag and filter your contacts for easy organization. Keep all of your contact up to date with easy import from your Google account, a TVNT account, or upload from a CSV.</p>
+          <h2>Never have the wrong address again, MPDX automatically updates your partner's contact information</h2>
+          <p>Your partners are the lifeblood of your ministry, we understand how important it is to stay connected.</p>
+          <p>MPDX stores all of your contacts in one place. Changes from donor services, Mailchimp & Google sync straight to your MPDX contacts. 
+You can also sort, tag and filter your contacts for easy organization.</p>
           <a href="#" class="btn btn-default btn-primary">Get started</a>
         </div>
       </div>
@@ -121,7 +125,7 @@
       <div class="row text-center">
         <div class="col-md-6 col-md-offset-3">
           <h2>Try MPDX today - Forever free</h2>
-          <p>MPDX takes care of the admin side of fundraising so you cna focus on what you do best, living out the Great Commission.</p>
+          <p>MPDX keeps track of your MPD details so you can focus on your ministry.</p>
           <a href="#" class="btn btn-default btn-primary">Get started for free</a>
         </div>
       </div>
@@ -146,7 +150,7 @@
         <div class="col-md-4">
           <img src="assets/img/blog_icon.svg" />
           <h2>MPDX blog and news</h2>
-          <p>Stay up to date on feature releases, best mpd practices, and more.</p>
+          <p>Stay up to date on feature releases, best MPD practices, and more.</p>
           <a href="#" class="btn btn-default btn-primary">Go to blog</a>
         </div>
       </div>

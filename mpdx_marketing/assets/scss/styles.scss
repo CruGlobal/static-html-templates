@@ -6,6 +6,7 @@
   background-color: #fff;
   padding: 5px 10px;
   z-index: 1000;
+  box-shadow: #808080 1px 1px 1px;
 }
 
 
@@ -314,11 +315,12 @@ html {background-color: $white;}
       margin-bottom: 18px;
     }
   }
-  .posts {
+  .posts > div {
     margin-bottom: 70px;
-    @media screen and (max-width: 991px) {margin-bottom: 0;}
+    @media screen and (max-width: 991px) {margin-bottom: 46px;}
+    /* @media screen and (max-width: 991px) {margin-bottom: 0;} */
   }
-  .post {
+  .post-thumb {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -345,7 +347,7 @@ html {background-color: $white;}
     @media screen and (max-width: 1199px) {height: 271px;}
     @media screen and (max-width: 991px) {
       height: auto;
-      margin-bottom: 70px;
+      /* margin-bottom: 70px; */
     }
     p {
       line-height: 20px;
