@@ -7,9 +7,11 @@ function the_header($title, $id, $classes = '') {
 <head>
   <title><?php echo $title; ?></title>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0"/>
-  <link rel="stylesheet" href="http://give-static-stage.cru.org/give.min.css" />
+  <link rel="stylesheet" href="https://cru.org/css/cru.css" />
  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
+  <script src="https://use.typekit.net/usb5wjy.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="styles.css" />
 
   <style>

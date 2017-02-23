@@ -40,11 +40,14 @@
   <section class="sec3">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 pb_x">
           <h2>Track when giving patterns change, see your monthly commitments, and more with our easy to read dashboard</h2>
           <p>Sometimes we want to keep a close eye on our donations, and sometimes we would rather not face reality! Bottom line is, in order to steward our ministries well, we need to see what’s happening.</p>
           <p>With our easy to read dashboard and giving notifications, we show you an all encompassing look at the details that matter - even when you’re on the go!</p>
           <a href="#" class="btn btn-default btn-primary">Get started</a>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/img/dashboards.png" alt="Phone 1"/>
         </div>
       </div>
     </div>
@@ -53,7 +56,10 @@
   <section class="sec4">
     <div class="container">
       <div class="row">
-        <div class="col-md-7 col-md-offset-5">
+        <div class="col-md-5">
+          <img src="assets/img/connect_mpdx.jpg" />
+        </div>
+        <div class="col-md-7 pb_x">
           <h2>Sync once, update everywhere. Continue to use your favorite day-to-day tools</h2>
           <p>Do you need to share accounts with your spouse? Or with a team inside your ministry? MPDX’s easy integrations allow you to update once, and update everything; even between users.</p>
           <p>Set up a connection with your Google account to automatically log a partner’s email history, keep your contacts in MPDX in sync with your Google contacts, and connect your appointments and tasks to your Google calendar. MPDX also keeps your mailing lists up to date in MailChimp, and Prayerletter Services.</p>
@@ -66,12 +72,15 @@
   <section class="sec5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 pb_x">
           <h2>Never have the wrong address again, MPDX automatically updates your partner's contact information</h2>
           <p>Your partners are the lifeblood of your ministry, we understand how important it is to stay connected.</p>
           <p>MPDX stores all of your contacts in one place. Changes from donor services, Mailchimp & Google sync straight to your MPDX contacts. 
 You can also sort, tag and filter your contacts for easy organization.</p>
           <a href="#" class="btn btn-default btn-primary">Get started</a>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/img/contacts_hands_mpdx.png" />
         </div>
       </div>
     </div>

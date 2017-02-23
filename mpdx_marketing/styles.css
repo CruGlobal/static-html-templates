@@ -15,8 +15,8 @@ html {
   background-color: #ffffff; }
 
 .product-pages h2 {
-  font-size: 26px;
-  line-height: 30px; }
+  font-size: 28px;
+  line-height: 1.35em; }
 
 .product-pages .btn {
   font-size: 18px;
@@ -41,7 +41,7 @@ html {
   margin-top: 28px; }
 
 .product-pages p {
-  line-height: 18px; }
+  line-height: 1.5em; }
   .product-pages p + .btn-primary {
     margin-top: 26px; }
 
@@ -86,55 +86,34 @@ html {
     height: 60px;
     color: #626262; }
 
-.product-homepage .sec3 {
-  background-image: url(assets/img/dashboards.png);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: auto 90%;
-  padding-top: 66px;
-  padding-bottom: 66px; }
-  .product-homepage .sec3 p {
-    color: #626262; }
-
-.product-homepage .sec4 {
-  background-image: url(assets/img/connect_mpdx.jpg);
-  background-position: 16% -10%;
-  background-repeat: no-repeat;
-  background-size: auto 115%;
-  padding-top: 74px;
-  padding-bottom: 196px; }
-  .product-homepage .sec4 p {
-    color: #626262; }
-
+.product-homepage .sec3,
+.product-homepage .sec4,
 .product-homepage .sec5 {
-  background-image: url(assets/img/contacts_hands_mpdx.png);
-  background-position: 86% bottom;
-  background-repeat: no-repeat;
-  background-size: auto 90%;
-  padding-top: 72px;
-  padding-bottom: 176px; }
+  padding-top: 60px; }
+  .product-homepage .sec3 p,
+  .product-homepage .sec4 p,
   .product-homepage .sec5 p {
     color: #626262; }
 
 .product-homepage .testimonials {
   background-color: #f9b625;
-  padding-top: 62px;
-  padding-bottom: 62px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: #ffffff; }
   .product-homepage .testimonials p {
-    line-height: 23px;
-    font-size: 20px; }
+    line-height: 1.75em;
+    font-size: 18.4px; }
     .product-homepage .testimonials p:last-of-type {
       margin-bottom: 0; }
 
 .product-homepage .sec7 {
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   .product-homepage .sec7 .question, .product-homepage .sec7 .answer {
-    padding-top: 32px;
+    padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 32px; }
+    padding-bottom: 30px; }
   .product-homepage .sec7 .question {
     background-color: #f0f0f0;
     height: 140px;
@@ -304,7 +283,7 @@ html {
         height: auto;
         /* margin-bottom: 70px; */ } }
     .product-blog .post-content p {
-      line-height: 20px;
+      line-height: 1.25em;
       margin-bottom: 18px;
       letter-spacing: .57px; }
       .product-blog .post-content p:last-child {
