@@ -18,6 +18,23 @@ html {
   font-size: 26px;
   line-height: 30px; }
 
+.product-pages h3 {
+  font-size: 24px;
+  line-height: 27px; }
+
+.product-pages h4 {
+  font-size: 20px;
+  line-height: 22px; }
+
+.product-pages p {
+  font-size: 16px;
+  line-height: 20px; }
+  .product-pages p + .btn-primary {
+    margin-top: 26px; }
+
+.product-pages h2 + p {
+  margin-top: 28px; }
+
 .product-pages .btn {
   font-size: 18px;
   text-transform: uppercase;
@@ -37,14 +54,6 @@ html {
     .product-pages .btn.btn-link.btn-alt .fa {
       font-weight: 700; }
 
-.product-pages h2 + p {
-  margin-top: 28px; }
-
-.product-pages p {
-  line-height: 18px; }
-  .product-pages p + .btn-primary {
-    margin-top: 26px; }
-
 .product-pages .try-free {
   padding-top: 65px;
   padding-bottom: 73px; }
@@ -59,7 +68,6 @@ html {
 
 .product-homepage .hero {
   color: #ffffff;
-  background-image: url(assets/img/MPDX_product_page_hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,34 +94,10 @@ html {
     height: 60px;
     color: #626262; }
 
-.product-homepage .sec3 {
-  background-image: url(assets/img/dashboards.png);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: auto 90%;
+.product-homepage .sec3, .product-homepage .sec4, .product-homepage .sec5 {
   padding-top: 66px;
   padding-bottom: 66px; }
-  .product-homepage .sec3 p {
-    color: #626262; }
-
-.product-homepage .sec4 {
-  background-image: url(assets/img/connect_mpdx.jpg);
-  background-position: 16% -10%;
-  background-repeat: no-repeat;
-  background-size: auto 115%;
-  padding-top: 74px;
-  padding-bottom: 196px; }
-  .product-homepage .sec4 p {
-    color: #626262; }
-
-.product-homepage .sec5 {
-  background-image: url(assets/img/contacts_hands_mpdx.png);
-  background-position: 86% bottom;
-  background-repeat: no-repeat;
-  background-size: auto 90%;
-  padding-top: 72px;
-  padding-bottom: 176px; }
-  .product-homepage .sec5 p {
+  .product-homepage .sec3 p, .product-homepage .sec4 p, .product-homepage .sec5 p {
     color: #626262; }
 
 .product-homepage .testimonials {
@@ -216,7 +200,7 @@ html {
   letter-spacing: .93px; }
 
 .product-features .sec2 h3 {
-  margin-top: 73px;
+  margin-top: 0;
   font-size: 20px; }
 
 .product-features .sec2 img {
@@ -227,12 +211,14 @@ html {
 .product-features .sec2 p {
   color: #626262; }
 
-.product-features .sec2 .row {
+.product-features .sec2 > .container > .row {
   border-top: #f9b625 1px solid;
-  padding-top: 80px;
-  padding-bottom: 80px; }
-  .product-features .sec2 .row:first-child {
+  padding-top: 80px; }
+  .product-features .sec2 > .container > .row:first-child {
     border-top: none; }
+
+.product-features .sec2 .col-md-4 {
+  margin-bottom: 80px; }
 
 .product-features .try-free {
   background-color: #f0f0f0; }
