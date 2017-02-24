@@ -17,6 +17,13 @@ html {
 .product-pages h2 {
   font-size: 28px;
   line-height: 1.35em; }
+  .product-pages h2 + p {
+    margin-top: 28px; }
+
+.product-pages p {
+  line-height: 1.5em; }
+  .product-pages p + .btn-primary {
+    margin-top: 26px; }
 
 .product-pages .btn {
   font-size: 18px;
@@ -37,14 +44,6 @@ html {
     .product-pages .btn.btn-link.btn-alt .fa {
       font-weight: 700; }
 
-.product-pages h2 + p {
-  margin-top: 28px; }
-
-.product-pages p {
-  line-height: 1.5em; }
-  .product-pages p + .btn-primary {
-    margin-top: 26px; }
-
 .product-pages .try-free {
   padding-top: 65px;
   padding-bottom: 73px; }
@@ -59,7 +58,6 @@ html {
 
 .product-homepage .hero {
   color: #ffffff;
-  background-image: url(assets/img/MPDX_product_page_hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,7 +193,7 @@ html {
   letter-spacing: .93px; }
 
 .product-features .sec2 h3 {
-  margin-top: 73px;
+  margin-top: 0;
   font-size: 20px; }
 
 .product-features .sec2 img {
@@ -206,12 +204,16 @@ html {
 .product-features .sec2 p {
   color: #626262; }
 
-.product-features .sec2 .row {
+.product-features .sec2 > .container > .row {
   border-top: #f9b625 1px solid;
-  padding-top: 80px;
-  padding-bottom: 80px; }
-  .product-features .sec2 .row:first-child {
+  padding-top: 80px; }
+  .product-features .sec2 > .container > .row:first-child {
     border-top: none; }
+
+.product-features .sec2 .col-md-4 {
+  margin-bottom: 80px; }
+  .product-features .sec2 .col-md-4:nth-child(3n+1) {
+    clear: both; }
 
 .product-features .try-free {
   background-color: #f0f0f0; }
@@ -249,8 +251,7 @@ html {
       letter-spacing: .57px;
       margin-bottom: 18px; }
   .product-blog .posts > div {
-    margin-bottom: 70px;
-    /* @media screen and (max-width: 991px) {margin-bottom: 0;} */ }
+    margin-bottom: 70px; }
     @media screen and (max-width: 991px) {
       .product-blog .posts > div {
         margin-bottom: 46px; } }
@@ -280,8 +281,7 @@ html {
         height: 271px; } }
     @media screen and (max-width: 991px) {
       .product-blog .post-content {
-        height: auto;
-        /* margin-bottom: 70px; */ } }
+        height: auto; } }
     .product-blog .post-content p {
       line-height: 1.25em;
       margin-bottom: 18px;
