@@ -174,8 +174,8 @@ html {
 
 .product-features .hero {
   background-color: #e7e7e7;
-  padding-top: 74px;
-  padding-bottom: 74px; }
+  padding-top: 75px;
+  padding-bottom: 75px; }
   .product-features .hero.mb70 {
     padding-bottom: 70px; }
   .product-features .hero img {
@@ -190,7 +190,7 @@ html {
     color: #626262; }
 
 .product-features .sec2 h2 {
-  letter-spacing: .93px; }
+  letter-spacing: .9px; }
 
 .product-features .sec2 h3 {
   margin-top: 0;
@@ -209,11 +209,6 @@ html {
   padding-top: 80px; }
   .product-features .sec2 > .container > .row:first-child {
     border-top: none; }
-
-.product-features .sec2 .col-md-4 {
-  margin-bottom: 80px; }
-  .product-features .sec2 .col-md-4:nth-child(3n+1) {
-    clear: both; }
 
 .product-features .try-free {
   background-color: #f0f0f0; }

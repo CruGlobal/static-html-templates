@@ -216,12 +216,12 @@ html {background-color: $white;}
 .product-features {
   .hero {
     background-color: $silver2;
-    padding-top: 74px;
-    padding-bottom: 74px;
+    padding-top: $gutter*2.5;
+    padding-bottom: $gutter*2.5;
     &.mb70 {padding-bottom: 70px;}
     img {
       display: inline-block;
-      margin-bottom: 30px;
+      margin-bottom: $gutter;
     }
     h1 {
       font-size: $font-size*2.25;
@@ -232,7 +232,7 @@ html {background-color: $white;}
     h2 {color: $gray;}
   }
   .sec2 {
-    h2 {letter-spacing: .93px;}
+    h2 {letter-spacing: .9px;}
     h3 {
       margin-top: 0;
       font-size: $font-size*1.25;
@@ -247,10 +247,6 @@ html {background-color: $white;}
       border-top: $cru-gold 1px solid;
       padding-top: 80px;
       &:first-child {border-top: none;}
-    }
-    .col-md-4 {
-      margin-bottom: 80px;
-      &:nth-child(3n+1) {clear: both;}
     }
   }
   .try-free {background-color: $silver;}
