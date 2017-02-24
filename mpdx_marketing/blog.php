@@ -1,10 +1,10 @@
 <?php include 'functions.php'; ?>
 <?php the_header('Blog Page', 'blog', 'mpdx-pages'); ?>
 
-  <section class="hero prod-cat1" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);">
+  <section class="hero hero--text-center hero--overlay prod-cat1" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);">
     <div class="prod-img-overlay prod-cat1">
       <div class="container">
-        <div class="row text-center">
+        <div class="row">
           <div class="col-md-10 col-md-offset-1">
             <img src="assets/img/solid_featured_icon.svg" alt="" />
             <h2>Sync Your Prayerletter Services</h2>

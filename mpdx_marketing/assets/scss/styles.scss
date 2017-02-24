@@ -37,15 +37,13 @@ $gutter:            30px;
 html {background-color: $white;}
 
 .product-pages {
-  section {background-color: $white;}
+  /* section {background-color: $white;} */
   h2 {
     font-size: $font-size*1.75;
     line-height: 1.35em;
-    + p {margin-top: 28px}
   }
   p {
     line-height: 1.5em;
-    + .btn-primary {margin-top: 26px;}
   }
 
   .btn {
@@ -80,27 +78,83 @@ html {background-color: $white;}
   }
 }
 
-.product-homepage {
-  .sec3, .sec5, .sec8 {background-color: $silver;}
 
-  .hero {
-    color: $white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 68px;
-    padding-bottom: 68px;
-    img {margin-bottom: 36px;}
-    h1 {
-      font-size: $font-size*2.25;
-      font-weight: bold;
-      margin-bottom: 25px;
-    }
-    h2 {
-      line-height: 1.2;
-      margin-bottom: 33px;
+
+
+
+
+
+
+
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: $gutter*2;
+  padding-bottom: $gutter*2;
+  color: $white;
+  img, h1, h2, p, .btn {
+    margin-bottom: $gutter;
+  }
+  .row > * {
+    > :first-child {margin-top: 0;}
+    > :last-child {margin-bottom: 0;}
+  }
+  h1 {
+    font-size: $font-size*2.25;
+    font-weight: bold;
+  }
+  h2 {
+    line-height: 1.2;
+  }
+  &--text-center {
+    text-align: center;
+    img {
+      margin-left: auto;
+      margin-right: auto;
     }
   }
+  &--no-photo {
+    background-color: $silver2;
+    padding-top: $gutter*2.5;
+    padding-bottom: $gutter*2.5;
+    h1 {font-weight: 900;}
+    h1, h2 {color: $gray;}
+  }
+  &--overlay {
+    padding-top: 0;
+    padding-bottom: 0;
+    > div {
+      padding-top: $gutter*2;
+      padding-bottom: $gutter*2;
+    }
+    img {height: 60px;}
+    h2 {
+      font-size: $font-size*2.25;
+      font-weight: bold;
+      letter-spacing: 1.29px;
+      line-height: 1;
+    }
+    .date {letter-spacing: .57px;}
+  }
+}
+
+.text-img {
+  padding-top: $gutter*2;
+  p {color: $gray;}
+  &--silver-bg {background-color: $silver;}
+  h2 + p {margin-top: 28px}
+  p + .btn-primary {margin-top: 26px;}
+}
+
+
+
+
+
+
+
+.product-homepage {
+  .sec8 {background-color: $silver;}
 
   .sec2, .sec9 {
     padding-top: 72px;
@@ -114,13 +168,6 @@ html {background-color: $white;}
       height: 60px;
       color: $gray;
     }
-  }
-
-  .sec3,
-  .sec4,
-  .sec5 {
-    padding-top: $gutter*2;
-    p {color: $gray;}
   }
 
   .testimonials {
@@ -172,7 +219,6 @@ html {background-color: $white;}
     }
     .answer {
       border: $silver 1px solid;
-      height: 224px;
       *:last-child {margin-bottom: 0;}
       @media screen and (min-width: 1200px) {
         height: 206px;
@@ -214,23 +260,6 @@ html {background-color: $white;}
 }
 
 .product-features {
-  .hero {
-    background-color: $silver2;
-    padding-top: $gutter*2.5;
-    padding-bottom: $gutter*2.5;
-    &.mb70 {padding-bottom: 70px;}
-    img {
-      display: inline-block;
-      margin-bottom: $gutter;
-    }
-    h1 {
-      font-size: $font-size*2.25;
-      font-weight: 900;
-      color: $gray;
-      margin-bottom: 18px;
-    }
-    h2 {color: $gray;}
-  }
   .sec2 {
     h2 {letter-spacing: .9px;}
     h3 {
@@ -261,32 +290,6 @@ html {background-color: $white;}
     font-size: $font-size*0.9375;
     padding-left: 50px;
     padding-right: 50px;
-  }
-  .hero {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    > div {
-      padding-top: 70px;
-      padding-bottom: 80px;
-    }
-    img {
-      height: 60px;
-      display: inline-block;
-      margin-bottom: 25px;
-    }
-    h2, .date {color: $white;}
-    h2 {
-      margin-bottom: 24px;
-      font-size: $font-size*2.25;
-      font-weight: bold;
-      letter-spacing: 1.29px;
-      line-height: 1;
-    }
-    .date {
-      letter-spacing: .57px;
-      margin-bottom: 18px;
-    }
   }
   .posts > div {
     margin-bottom: 70px;

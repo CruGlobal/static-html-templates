@@ -36,6 +36,12 @@ function the_header($title, $id, $classes = '') {
   .godtools-pages .hero .prod-img-overlay.prod-cat3 {background-color: rgba(0, 0, 255, 0.3);}
   </style>
 
+  <script>
+    $(function() {
+      $('.product-homepage .answer').matchHeight();
+    });
+  </script>
+
 </head>
 
 <body class="product-pages product-<?php echo $id; ?> <?php echo $classes; ?>">

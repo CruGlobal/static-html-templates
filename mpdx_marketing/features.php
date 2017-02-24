@@ -1,9 +1,9 @@
 <?php include 'functions.php'; ?>
 <?php the_header('Features Page', 'features'); ?>
 
-  <section class="hero">
+  <section class="hero hero--no-photo hero--text-center">
     <div class="container">
-      <div class="row text-center">
+      <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <img src="assets/img/MPDX-Logo.png" width="148" alt="" />
           <h1>MPDX Feature List</h1>

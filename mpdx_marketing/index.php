@@ -37,7 +37,7 @@
     </div>
   </section>
 
-  <section class="sec3">
+  <section class="text-img text-img--silver-bg">
     <div class="container">
       <div class="row">
         <div class="col-md-6 pb_x">
@@ -53,23 +53,23 @@
     </div>
   </section>
 
-  <section class="sec4">
+  <section class="text-img">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
-          <img src="assets/img/connect_mpdx.jpg" />
-        </div>
-        <div class="col-md-7 pb_x">
+        <div class="col-md-7 pb_x pull-right">
           <h2>Sync once, update everywhere. Continue to use your favorite day-to-day tools</h2>
           <p>Do you need to share accounts with your spouse? Or with a team inside your ministry? MPDX’s easy integrations allow you to update once, and update everything; even between users.</p>
           <p>Set up a connection with your Google account to automatically log a partner’s email history, keep your contacts in MPDX in sync with your Google contacts, and connect your appointments and tasks to your Google calendar. MPDX also keeps your mailing lists up to date in MailChimp, and Prayerletter Services.</p>
           <a href="#" class="btn btn-default btn-primary">Get started</a>
         </div>
+        <div class="col-md-5">
+          <img src="assets/img/connect_mpdx.jpg" />
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="sec5">
+  <section class="text-img text-img--silver-bg">
     <div class="container">
       <div class="row">
         <div class="col-md-6 pb_x">
