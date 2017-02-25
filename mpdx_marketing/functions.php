@@ -9,7 +9,9 @@ function the_header($title, $id, $classes = '') {
   <meta name="viewport" content="width=device-width, minimum-scale=1.0"/>
   <link rel="stylesheet" href="https://cru.org/css/cru.css" />
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.8/jquery.bxslider.css" />
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.8/jquery.bxslider.min.js"></script>
   <script src="assets/js/jquery.matchHeight-min.js"></script>
   <script src="https://use.typekit.net/usb5wjy.js"></script>
   <link rel="stylesheet" href="styles.css" />
@@ -66,6 +68,7 @@ function the_footer() {
 
   $(function() {
     $('.uniform-height .uni-col').matchHeight();
+    $('.bxslider').bxSlider();
   });
 </script>
 
