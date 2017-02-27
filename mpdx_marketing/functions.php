@@ -8,12 +8,18 @@ function the_header($title, $id, $classes = '') {
   <title><?php echo $title; ?></title>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0"/>
   <link rel="stylesheet" href="https://cru.org/css/cru.css" />
+  
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.8/jquery.bxslider.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.css" />
+
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.8/jquery.bxslider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js"></script>
   <script src="assets/js/jquery.matchHeight-min.js"></script>
   <script src="https://use.typekit.net/usb5wjy.js"></script>
+  
   <link rel="stylesheet" href="styles.css" />
 
   <style>
@@ -71,6 +77,11 @@ function the_footer() {
     $('.inline-slider').bxSlider({
       controls: false,
       transition: 'fade'
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
     });
   });
 </script>

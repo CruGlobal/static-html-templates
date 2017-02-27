@@ -120,6 +120,9 @@ html {
       line-height: 1; }
     .hero--overlay .date {
       letter-spacing: .57px; }
+  .hero--title {
+    background: #626262;
+    text-align: center; }
 
 .text-img {
   padding-top: 60px; }
@@ -302,9 +305,20 @@ html {
       .product-blog .post-content h2 a {
         color: #626262; }
 
+.section-body h5 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: .75em;
+  margin-top: 1em; }
+
 .section-padded {
   padding: 60px 0; }
 
 .section-reverse {
   background: #333333;
   color: #ffffff; }
+
+.round-edges {
+  border-radius: 4px; }

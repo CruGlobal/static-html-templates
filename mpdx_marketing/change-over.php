@@ -9,8 +9,11 @@
           <h1>MPDX Transition Guide</h1>
           <h2>We are a team of MPDX experts, committed to your MPDX Success! This site will help you make the change easily and successfully!</h2>
         </div>
-        <div class="col-md-6">
-
+        <div class="col-md-5 col-md-offset-1 text-center">
+        <a href="https://www.youtube.com/watch?v=0E00Zuayv9Q&rel=0&iv_load_policy=3" data-toggle="lightbox">
+          <img src="assets/img/steve-sellers.png" alt="Steve Sellers" class="round-edges mb0" />
+          <caption>Watch a special message from Steve Sellers</caption>
+        </a>
         </div>
       </div>
     </div>
