@@ -68,7 +68,10 @@ function the_footer() {
 
   $(function() {
     $('.uniform-height .uni-col').matchHeight();
-    $('.bxslider').bxSlider();
+    $('.inline-slider').bxSlider({
+      controls: false,
+      transition: 'fade'
+    });
   });
 </script>
 

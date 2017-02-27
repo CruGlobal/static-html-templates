@@ -310,11 +310,11 @@ html {background-color: $white;}
   }
 }
 
-/* .mpdx-pages {
-  .prod-cat1 {background-color: $mpdx1;}
-  .prod-img-overlay.prod-cat1 {background-color: rgba($mpdx1, .3);}
-  .prod-cat2 {background-color: $mpdx2;}
-  .prod-img-overlay.prod-cat2 {background-color: rgba($mpdx2, .3);}
-  .prod-cat3 {background-color: $mpdx3;}
-  .prod-img-overlay.prod-cat3 {background-color: rgba($mpdx3, .3);}
-} */
+.section-padded {
+  padding: $gutter*2 0;
+}
+
+.section-reverse {
+  background: $gray-dark;
+  color: $white;
+}

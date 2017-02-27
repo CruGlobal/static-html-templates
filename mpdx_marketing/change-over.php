@@ -78,11 +78,11 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="sec6 testimonial-slider">
+  <section class="section-padded section-reverse">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <ul class="bxslider">
+          <ul class="inline-slider quote-slider">
             <li>
               <div class="quote-wrapper">
                 “MPDX has helped me keep in contact with my ministry partners with greater ease than I have experienced with any other tool. I can see my info on any computer and share access with my spouse without moving files around. It is working on my MPD even when I am not, and sends me an email when there is something that needs my attention!”
