@@ -15,7 +15,7 @@
     </div>
   </section>
 
-  <section class="sec2">
+  <section class="section-icons section-icons--padded-tb-2g section-icons--text-center">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4">
@@ -86,7 +86,7 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="sec6 testimonials">
+  <section class="section-testimonials">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 col-md-offset-3">
@@ -97,31 +97,31 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="sec7">
+  <section class="section-boxed-content">
     <div class="container">
-      <div class="row text-center">
+      <div class="row text-center uniform-height">
         <div class="col-md-4">
-          <div class="question">
+          <div class="section-boxed-content__top">
             <h3>Does my donation information sync with MPDX automatically?</h3>
           </div>
-          <div class="answer">
+          <div class="section-boxed-content__bottom uni-col">
             <p>If your are with Cru or another organization that syncs with MPDX, the sync is set up automatically when you sign up with your organization email address.</p>
             <a href="#" class="btn btn-link btn-alt">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="question">
+          <div class="section-boxed-content__top">
             <h3>Does all my information come over from TNT?</h3>
           </div>
-          <div class="answer">
+          <div class="section-boxed-content__bottom uni-col">
             <p>Yes. Task history, notes, contact information, appeals, it all comes over. TNT Groups are created as Tags in MPDX.</p>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="question">
+          <div class="section-boxed-content__top">
             <h3>All of my contacts have disappeared or a look-up isn't working.</h3>
           </div>
-          <div class="answer">
+          <div class="section-boxed-content__bottom uni-col">
             <p>You may have accidentally set up a filter or selected a tag that won't produce the look-up you are trying to accomplish. Make sure that you only have the correct filters and/or tags selected.</p>
           </div>
         </div>
@@ -129,7 +129,7 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="sec8 try-free">
+  <section class="try-free try-free--silver-bg try-free--padded-tb-2g">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 col-md-offset-3">
@@ -141,7 +141,7 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="sec9">
+  <section class="section-icons section-icons--padded-tb-2g section-icons--text-center">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4">

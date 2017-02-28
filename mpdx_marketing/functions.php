@@ -44,12 +44,6 @@ function the_header($title, $id, $classes = '') {
   .godtools-pages .hero .prod-img-overlay.prod-cat3 {background-color: rgba(0, 0, 255, 0.3);}
   </style>
 
-  <script>
-    $(function() {
-      $('.product-homepage .answer').matchHeight();
-    });
-  </script>
-
 </head>
 
 <body class="product-pages product-<?php echo $id; ?> <?php echo $classes; ?>">
@@ -59,6 +53,8 @@ function the_header($title, $id, $classes = '') {
     <a href="features.php">Features</a>
     <a href="blog.php">Blog</a>
     <a href="post.php">Post</a>
+    <a href="basic-page.php">Basic</a>
+    <a href="change-over.php">Change-over</a>
   </div>
 <?php
 

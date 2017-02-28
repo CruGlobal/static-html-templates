@@ -11,7 +11,7 @@
       </div>
     </div>
   </section>
-  <section class="section-body section-padded">
+  <section class="section-body section--padded-tb-2g">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

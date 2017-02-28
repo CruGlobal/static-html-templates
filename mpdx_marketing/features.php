@@ -104,7 +104,7 @@
     </div>
   </section>
 
-  <section class="sec3 try-free">
+  <section class="try-free try-free--silver-bg try-free--padded-tb-2g">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 col-md-offset-3">
