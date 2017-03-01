@@ -1,7 +1,7 @@
 <?php include 'functions.php'; ?>
-<?php the_header('Products Home Page', 'homepage'); ?>
+<?php the_header('Change-over Page', 'changeover'); ?>
 
-  <section class="sec1 hero" style="background-image: url(assets/img/change-over-hero.jpg);">
+  <section class="spotlight" style="background-image: url(assets/img/change-over-hero.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-md-6">

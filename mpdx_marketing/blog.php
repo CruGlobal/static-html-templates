@@ -1,7 +1,7 @@
 <?php include 'functions.php'; ?>
 <?php the_header('Blog Page', 'blog', 'mpdx-pages'); ?>
 
-  <section class="hero hero--text-center hero--overlay prod-cat1" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);">
+  <section class="spotlight spotlight--text-center spotlight--overlay prod-cat1" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);">
     <div class="prod-img-overlay prod-cat1">
       <div class="container">
         <div class="row">
@@ -29,7 +29,7 @@
     </div>
   </nav>
 
-  <section class="sec2 posts">
+  <section class="posts">
     <div class="container">
       <div class="row posts">
         <div class="col-md-4">

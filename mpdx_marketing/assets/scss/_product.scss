@@ -9,8 +9,6 @@
   box-shadow: #808080 1px 1px 1px;
 }
 
-html {background-color: $white;}
-
 
 /* WRAPPER CLASSES */
 
@@ -33,6 +31,8 @@ html {background-color: $white;}
   padding-top: $gutter * 2;
   padding-bottom: $gutter * 2;
 }
+
+html {background-color: $white;}
 
 
 .product-pages {
@@ -80,13 +80,16 @@ html {background-color: $white;}
 
 
 
-.hero {
+.spotlight {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: $gutter*2;
   padding-bottom: $gutter*2;
   color: $white;
+  a {
+    color: $white;
+  }
   img, h1, h2, p, .btn {
     margin-bottom: $gutter;
   }
@@ -94,12 +97,22 @@ html {background-color: $white;}
     > :first-child {margin-top: 0;}
     > :last-child {margin-bottom: 0;}
   }
-  h1 {
+  h2 {
     font-size: $font-size*2.25;
     font-weight: bold;
   }
-  h2 {
+  h3 {
+    font-size: $font-size*1.75;
     line-height: 1.2;
+  }
+  &.hero {
+    h1 {
+      font-size: $font-size*2.25;
+      font-weight: bold;
+    }
+    h2 {
+      line-height: 1.2;
+    }
   }
   &--no-photo {
     background-color: $silver2;
@@ -147,7 +160,7 @@ html {background-color: $white;}
     margin-bottom: 23px;
   }
   h2 {
-    height: 60px;
+    min-height: 60px;
     line-height: 30px;
     color: $gray;
   }
@@ -212,6 +225,25 @@ html {background-color: $white;}
   }
 }
 
+.section-breakdown {
+  h2 {letter-spacing: .9px;}
+  h3 {
+    margin-top: 0;
+    font-size: $font-size*1.25;
+  }
+  img {
+    display: inline-block;
+    margin-bottom: 7px;
+    height: 60px;
+  }
+  p {color: $gray;}
+  > .container > .row {
+    border-top: $cru-gold 1px solid;
+    padding-top: 80px;
+    &:first-child {border-top: none;}
+  }
+}
+
 .product-features, .product-blog {
   .navbar-default.navbar-internal {
     background-color: $silver;
@@ -239,25 +271,6 @@ html {background-color: $white;}
 }
 
 .product-features {
-  .sec2 {
-    h2 {letter-spacing: .9px;}
-    h3 {
-      margin-top: 0;
-      font-size: $font-size*1.25;
-    }
-    img {
-      display: inline-block;
-      margin-bottom: 7px;
-      height: 60px;
-    }
-    p {color: $gray;}
-    > .container > .row {
-      border-top: $cru-gold 1px solid;
-      padding-top: 80px;
-      &:first-child {border-top: none;}
-    }
-  }
-  .try-free {background-color: $silver;}
   @media screen and (min-width: 56em) {
     .navbar {margin-bottom: 0;}
   }

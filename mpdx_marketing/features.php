@@ -1,7 +1,7 @@
 <?php include 'functions.php'; ?>
 <?php the_header('Features Page', 'features'); ?>
 
-  <section class="hero hero--no-photo hero--text-center">
+  <section class="spotlight spotlight--no-photo spotlight--text-center">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -25,7 +25,7 @@
     </div>
   </nav>
 
-  <section class="sec2">
+  <section class="section-breakdown">
     <div class="container">
       <div class="row">
         <div class="col-md-3 text-center">

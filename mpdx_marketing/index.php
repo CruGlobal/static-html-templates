@@ -1,7 +1,7 @@
 <?php include 'functions.php'; ?>
 <?php the_header('Products Home Page', 'homepage'); ?>
 
-  <section class="sec1 hero" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);">
+  <section class="spotlight spotlight" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-md-6">

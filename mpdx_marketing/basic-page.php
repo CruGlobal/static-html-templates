@@ -1,7 +1,7 @@
 <?php include 'functions.php'; ?>
-<?php the_header('Products Home Page', 'homepage'); ?>
+<?php the_header('Basic Page', 'basic'); ?>
 
-  <section class="hero hero--title">
+  <section class="spotlight spotlight--title">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
