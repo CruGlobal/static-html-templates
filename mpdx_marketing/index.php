@@ -10,7 +10,12 @@
           <h2>MPDX is a free, secure app that helps you grow and maintain your financial partnerships in a quick and easy way.</h2>
           <a href="#" class="btn btn-default btn-primary">Download the app</a>
         </div>
-        <div class="col-md-6">Video</div>
+        <div class="col-md-5 col-md-offset-1 text-center">
+        <a href="https://www.youtube.com/watch?v=0E00Zuayv9Q&rel=0&iv_load_policy=3" data-toggle="lightbox">
+          <img src="assets/img/steve-sellers.png" alt="Steve Sellers" class="round-edges mb0" />
+          <caption>Watch a special message from Steve Sellers</caption>
+        </a>
+        </div>
       </div>
     </div>
   </section>
