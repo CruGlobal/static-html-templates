@@ -86,7 +86,7 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="section-testimonials">
+  <section class="section-testimonials section-testimonials--padded-tb-2g">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 col-md-offset-3">
@@ -97,7 +97,7 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="section-boxed-content">
+  <section class="section-boxed-content section-boxed-content--padded-tb-2g">
     <div class="container">
       <div class="row text-center uniform-height">
         <div class="col-md-4">

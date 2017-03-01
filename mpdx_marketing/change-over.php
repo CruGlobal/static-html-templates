@@ -19,13 +19,13 @@
     </div>
   </section>
 
-  <section class="text-img text-img--silver-bg pt pb">
+  <section class="cta-sides cta-sides--silver-bg cta-sides--padded-tb">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h2 class="pb0 pt--">I’m with Steve Sellers and want to begin the transition.</h2>
+          <h2>I’m with Steve Sellers and want to begin the transition.</h2>
         </div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4">
           <a href="#" class="btn btn-default btn-primary">Login to MPDX</a>
         </div>
       </div>
@@ -100,7 +100,7 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="section-testimonials">
+  <section class="section-testimonials section-testimonials--padded-tb-2g">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 col-md-offset-3">
@@ -111,7 +111,7 @@ You can also sort, tag and filter your contacts for easy organization.</p>
     </div>
   </section>
 
-  <section class="section-boxed-content">
+  <section class="section-boxed-content section-boxed-content--padded-tb-2g">
     <div class="container">
       <div class="row text-center uniform-height">
         <div class="col-md-4">
