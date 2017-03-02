@@ -413,3 +413,18 @@ html {
       line-height: 1.35em; }
     .cta-sides .col-md-4 {
       text-align: center; } }
+
+.product-post .spotlight p {
+  margin-bottom: 0; }
+
+.product-post .spotlight .thumb {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
