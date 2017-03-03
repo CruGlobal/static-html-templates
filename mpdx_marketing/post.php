@@ -35,12 +35,27 @@
     <div class="container">
       <div class="row row--padded-tb-2g">
         <div class="col-md-2 col-md-offset-1">
-          Photo
+          <div class="thumb" style="background-image: url(http://s3images.coroflot.com/user_files/individual_files/avatars/large_avatar_509597_dpsovk0vwzv8el3rrooe8qrw2.jpg);"></div>
         </div>
         <div class="col-md-8">
           <h3>About Emily van den Heever</h3>
           <p>Emily is a US Designer for CRU, etc. Sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribu.</p>
           <p class="inline-link"><a href="#">View all posts by Emily</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="more-posts more-posts--padded-tb">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 col-md-offset-1 more-posts--padded-tb">
+          <h3>Previous</h3>
+          <a href="#">Merge contacts manually</a>
+        </div>
+        <div class="col-md-4 col-md-offset-2 more-posts--padded-tb">
+          <h3>Next</h3>
+          <a href="#">Janice Routh "Why I use MPDX"</a>
         </div>
       </div>
     </div>
