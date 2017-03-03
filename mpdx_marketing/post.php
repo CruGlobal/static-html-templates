@@ -10,7 +10,7 @@
             <h2>Sync Your Prayerletter Services</h2>
             <p class="date">November 2, 2016</p>
             <p class="author">Emily van den Heever</p>
-            <div class="thumb" style="background-image: url(http://s3images.coroflot.com/user_files/individual_files/avatars/large_avatar_509597_dpsovk0vwzv8el3rrooe8qrw2.jpg);"></div>
+            <div class="post-author__thumb" style="background-image: url(http://s3images.coroflot.com/user_files/individual_files/avatars/large_avatar_509597_dpsovk0vwzv8el3rrooe8qrw2.jpg);"></div>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
     <div class="container">
       <div class="row row--padded-tb-2g">
         <div class="col-md-2 col-md-offset-1">
-          <div class="thumb" style="background-image: url(http://s3images.coroflot.com/user_files/individual_files/avatars/large_avatar_509597_dpsovk0vwzv8el3rrooe8qrw2.jpg);"></div>
+          <div class="post-author__thumb" style="background-image: url(http://s3images.coroflot.com/user_files/individual_files/avatars/large_avatar_509597_dpsovk0vwzv8el3rrooe8qrw2.jpg);"></div>
         </div>
         <div class="col-md-8">
           <h3>About Emily van den Heever</h3>
@@ -46,16 +46,48 @@
     </div>
   </section>
 
-  <section class="more-posts more-posts--padded-tb">
+  <section class="adj-posts adj-posts--padded-tb">
     <div class="container">
       <div class="row text-center">
-        <div class="col-md-4 col-md-offset-1 more-posts--padded-tb">
+        <div class="col-md-4 col-md-offset-1 adjposts--padded-tb">
           <h3>Previous</h3>
           <a href="#">Merge contacts manually</a>
         </div>
-        <div class="col-md-4 col-md-offset-2 more-posts--padded-tb">
+        <div class="col-md-4 col-md-offset-2 adjposts--padded-tb">
           <h3>Next</h3>
           <a href="#">Janice Routh "Why I use MPDX"</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="post-previews">
+    <div class="container">
+      <h2 class="post-previews__headline">You might like to read these too</h2>
+      <div class="row posts uniform-height">
+        <div class="col-md-4 col-sm-12 uni-col">
+          <a href="post.php" class="post-thumb prod-cat1" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);"><span class="prod-img-overlay prod-cat1"><img src="assets/img/solid_featured_icon.svg" alt="" /></span></a>
+          <div class="post-content">
+            <p class="date">October 20, 2016</p>
+            <h2><a href="post.php">New Dashboard UI, easily see all you need on one screen</a></h2>
+            <p>MPDX is a tool to help you accelerate the process of connecting with people as you build and maintain your team...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 uni-col">
+          <a href="post.php" class="post-thumb prod-cat2" style="background-image: url(assets/img/MPDX_product_page_hero.jpg);"><span class="prod-img-overlay prod-cat2"><img src="assets/img/solid_mission_icon.svg" alt="" /></span></a>
+          <div class="post-content">
+            <p class="date">October 05, 2016</p>
+            <h2><a href="post.php">Janice Ruth, "Why I use MPDX"</a></h2>
+            <p>"In one view I could see my monthly gifts, my monthly goal, who I needed to connect with and my commitments! It's great having...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 uni-col">
+          <a href="post.php" class="post-thumb prod-cat3"><span class="prod-img-overlay prod-cat3"><img src="assets/img/solid_tutorial_icon.svg" alt="" /></span></a>
+          <div class="post-content">
+            <p class="date">September 20, 2016</p>
+            <h2><a href="post.php">Merge contacts manually</a></h2>
+            <p>If you have contacts you need to merge that do not show up when you run "Find Duplicates" function, you can also manually merge...</p>
+          </div>
         </div>
       </div>
     </div>

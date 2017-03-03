@@ -29,7 +29,7 @@
     </div>
   </nav>
 
-  <section class="posts">
+  <section class="post-previews">
     <div class="container">
       <div class="row posts uniform-height">
         <div class="col-md-4 col-sm-6 uni-col">
