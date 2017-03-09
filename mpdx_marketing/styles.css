@@ -101,7 +101,7 @@ html {
   top: 0; }
 
 .spotlight {
-  background-position: center;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 60px;
